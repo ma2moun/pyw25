@@ -19,3 +19,4 @@ print(f"Data from the x JSON: {y}")
 
 # or the data from the file:
 print(f"Data from the file: {y2}")
+
