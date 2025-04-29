@@ -1,0 +1,104 @@
+Q: What is the correct way to assign a value 10 to a variable called x in Python?
+A) x == 10
+B) x := 10
+C) x = 10
+D) 10 = x
+ANSWER: C
+
+Q: Which of the following is an example of a list in Python?
+A) {1, 2, 3}
+B) (1, 2, 3)
+C) [1, 2, 3]
+D) <1, 2, 3>
+ANSWER: C
+
+Q: Which Python keyword is used for error handling?
+A) try
+B) catch
+C) error
+D) handle
+ANSWER: A
+
+Q: In a Python dictionary, what do we use to access a value?
+A) Its index
+B) Its position
+C) Its key
+D) Its type
+ANSWER: C
+
+Q: What will the following code output: `print(type(5.0))`?
+A) <class 'int'>
+B) <class 'float'>
+C) <class 'str'>
+D) <class 'bool'>
+ANSWER: B
+
+Q: Which loop is best when you know exactly how many times you want to repeat an action?
+A) while loop
+B) for loop
+C) if loop
+D) do-while loop
+ANSWER: B
+
+Q: What does the `open('file.txt', 'r')` command do?
+A) Opens a file for writing
+B) Opens a file for reading
+C) Deletes the file
+D) Appends to the file
+ANSWER: B
+
+Q: Which data structure is **immutable** in Python?
+A) List
+B) Set
+C) Dictionary
+D) Tuple
+ANSWER: D
+
+Q: How do you correctly define a function in Python?
+A) function myFunction():
+B) def myFunction():
+C) define myFunction():
+D) func myFunction():
+ANSWER: B
+
+Q: What will `len(['apple', 'banana', 'cherry'])` return?
+A) 2
+B) 3
+C) 4
+D) 5
+ANSWER: B
+
+Q: What Python library would you commonly use to generate random numbers?
+A) random
+B) os
+C) math
+D) sys
+ANSWER: A
+
+Q: What will happen if you try to access a key that doesn't exist in a dictionary without using `.get()`?
+A) Returns None
+B) Raises a KeyError
+C) Adds a new key
+D) Returns False
+ANSWER: B
+
+Q: Which of the following is a valid set in Python?
+A) [1, 2, 3]
+B) {1, 2, 3}
+C) (1, 2, 3)
+D) <1, 2, 3>
+ANSWER: B
+
+Q: In Python, which statement is used to check multiple conditions?
+A) if-else
+B) if-elif-else
+C) for-else
+D) try-except
+ANSWER: B
+
+Q: Which of these is NOT a valid file mode when opening a file?
+A) 'r'
+B) 'w'
+C) 'e'
+D) 'a'
+ANSWER: C
