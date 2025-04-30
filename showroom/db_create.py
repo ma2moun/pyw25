@@ -1,5 +1,6 @@
 import sqlite3
 
+# Delete after using
 
 conn=sqlite3.connect("mycars.db")
 cursor=conn.cursor()
