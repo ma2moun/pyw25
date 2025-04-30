@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Car Showroom</title>
+</head>
+<body>
+    <h1 align="center">Welcome to Muscat Car Showroom</h1>
+    <br><br>
+
+    <table border="1" align="center">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Brand</th>
+                <th>Color</th>
+                <th>Year</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for car in cars %}
+            <tr>
+                <td>{{ car[0] }}</td>
+                <td>{{ car[1] }}</td>
+                <td>{{ car[2] }}</td>
+                <td>{{ car[3] }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+</body>
+</html>
