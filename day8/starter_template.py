@@ -7,7 +7,22 @@ from datetime import datetime
 # Function to load questions from a file
 def load_questions(filename):
     questions = []
-    # TODO: Read file content and prepare questions
+    try:
+        with open(filename, 'r') as file:
+            lines = file.read().split('\n\n')
+            for block in lines:
+                lines_in_block = block.strip().split('\n')
+                if len(lines_in_block) >= 5:
+                    question = lines_in_block[0][3:]  # Skip 'Q: '
+                    options = [line for line in lines_in_block[1:5]]
+                    answer = lines_in_block[5].split(':')[1].strip()
+                    questions.append({
+                        'question': question,
+                        'options': options,
+                        'answer': answer
+                    })
+    except FileNotFoundError:
+        print("Questions file not found!")
     return questions
 
 # Function to ask a single question to the user
